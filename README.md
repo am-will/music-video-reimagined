@@ -94,7 +94,7 @@ Plan for a big job: several hours, heavy token use, and around a dozen agents.
 - **Clawd** is Anthropic's mascot. This is an unofficial fan project, not affiliated with or endorsed by Anthropic.
 - The example films are fan homages to **PSY's "Gangnam Style"** and **Linkin Park's "Papercut"**. No audio,
   footage or lyrics from either is included here; the songs and their videos belong to their owners.
-- Built with Claude Opus 5.5 in Claude Code.
+- Built with Claude Opus 5.5 and Sonnet 5.5 in Claude Code.
 
 ## A note on music rights
 
