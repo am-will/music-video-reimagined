@@ -20,6 +20,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Portions of this repository (the engine files under music-video-reimagined/assets/)
+Portions of this repository (the engine files under skills/music-video-reimagined/assets/)
 are derived from ClaudeAnimationBase, Copyright (c) 2026 John Heibel, used under
-the MIT License; see music-video-reimagined/LICENSE-ClaudeAnimationBase.
+the MIT License; see skills/music-video-reimagined/LICENSE-ClaudeAnimationBase.

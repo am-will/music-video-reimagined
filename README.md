@@ -54,7 +54,7 @@ The films aren't posted here: the songs belong to their owners.
 
 ```bash
 git clone https://github.com/am-will/music-video-reimagined.git
-cp -r music-video-reimagined/music-video-reimagined ~/.claude/skills/
+cp -r music-video-reimagined/skills/music-video-reimagined ~/.claude/skills/
 ```
 
 **Claude apps:** download `music-video-reimagined.skill` from
@@ -73,19 +73,19 @@ Plan for a big job: several hours, heavy token use, and around a dozen agents.
 
 | path | what it is |
 |---|---|
-| `music-video-reimagined/SKILL.md` | the pipeline, start to finish |
-| `music-video-reimagined/references/` | one guide per phase, plus video types, dance videos and lessons learned |
-| `music-video-reimagined/scripts/` | download, song analysis, audio trim and sync check, sound effects, encoding, frame QA |
-| `music-video-reimagined/assets/engine/` | extensions to the ClaudeAnimationBase engine (costumes, poses, singing mouths, effects) |
-| `music-video-reimagined/assets/dance/` | a beat-locked move library for reproducing real choreography |
-| `music-video-reimagined/assets/example-*/` | the complete Gangnam and Papercut projects (no audio) |
+| `skills/music-video-reimagined/SKILL.md` | the pipeline, start to finish |
+| `skills/music-video-reimagined/references/` | one guide per phase, plus video types, dance videos and lessons learned |
+| `skills/music-video-reimagined/scripts/` | download, song analysis, audio trim and sync check, sound effects, encoding, frame QA |
+| `skills/music-video-reimagined/assets/engine/` | extensions to the ClaudeAnimationBase engine (costumes, poses, singing mouths, effects) |
+| `skills/music-video-reimagined/assets/dance/` | a beat-locked move library for reproducing real choreography |
+| `skills/music-video-reimagined/assets/example-*/` | the complete Gangnam and Papercut projects (no audio) |
 
 ## Credits
 
 - **John Heibel** made [ClaudeAnimationBase](https://github.com/JohnHeibel/ClaudeAnimationBase) (MIT License): the
   painting engine, the Clawd character rig, the renderer, and the animation guide whose rules this skill follows. The
   engine files in this repo are modified copies of his code, and his license is kept in
-  [`LICENSE-ClaudeAnimationBase`](music-video-reimagined/LICENSE-ClaudeAnimationBase).
+  [`LICENSE-ClaudeAnimationBase`](skills/music-video-reimagined/LICENSE-ClaudeAnimationBase).
 - **John Heibel** also made [*I'm Upping My P(doom)*](https://github.com/JohnHeibel/PDoomVideo), the music video the
   kit came from. It's the model for this skill's team workflow: one chapter per song section, parallel subagents
   briefed by a written guide, and the shape of the storyboard. No code from that repository is included.
